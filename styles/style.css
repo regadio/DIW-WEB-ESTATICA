@@ -1,7 +1,53 @@
 * {
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 }
 .modo-oscuro{
 	background-color: black;
+}
+/* CABECERA */
+#header {
+	display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 108, 202);
+    font-family: "BebasNeue";
+    color: white;
+}
+.contenido-total {
+    width: 1250px;
+    margin: 0 auto;
+}
+#logo{
+	float: left;
+	width: 50%;
+}
+#menu{
+	float: right;
+    height: 70px;
+    background-color: transparent;
+}
+#menu ul{
+	display: flex;
+    align-items: center;
+}
+#menu ul li {
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+
+}
+#menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+}
+#menu ul li a:hover {
+
+}
+
+/*Sirve para arreglar un problema con los flotados*/
+.clearfix {
+    float: none;
+    clear: both;
 }
