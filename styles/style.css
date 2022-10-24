@@ -66,6 +66,9 @@
         justify-content: center;
         margin-top: 13px;
     }
+    .contenedor-nav li a {
+        padding: 6px;
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 515px) {
@@ -93,5 +96,7 @@
         padding: 15px 500px;
     }
 
-    .contenedor-nav li a:hover {}
+    .contenedor-nav li a:hover {
+
+    }
 }
