@@ -1,53 +1,96 @@
 * {
-	margin: 0;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
-.modo-oscuro{
-	background-color: black;
-}
-/* CABECERA */
+
 #header {
-	display: flex;
-    width: 100%;
-    height: 70px;
-    background-color: rgb(0, 108, 202);
-    font-family: "BebasNeue";
-    color: white;
-}
-.contenido-total {
-    width: 1250px;
-    margin: 0 auto;
-}
-#logo{
-	float: left;
-	width: 50%;
-}
-#menu{
-	float: right;
-    height: 70px;
-    background-color: transparent;
-}
-#menu ul{
-	display: flex;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    background-color: #0D5686;
 }
-#menu ul li {
-	display: inline-block;
-	margin: 0px 20px 0px 20px;
 
+.logo {
+    display: flex;
+    margin-left: 15px;
+    
 }
-#menu ul li a {
-    display: block;
-    color: white;
+.logo img{
+    width: 120px;
+}
+
+.contenedor-nav {
+    display: flex;
+}
+
+.contenedor-nav li {
+    margin-right: 15px;
+    list-style: none;
+}
+
+.contenedor-nav li a {
+    text-transform: uppercase;
     text-decoration: none;
-    transition: all 200ms;
-}
-#menu ul li a:hover {
-
+    color: rgb(255, 255, 255);
+    padding: 9px;
 }
 
-/*Sirve para arreglar un problema con los flotados*/
-.clearfix {
-    float: none;
-    clear: both;
+.contenedor-nav a:hover {
+    color: #000000;
+    background-color: azure;
+    border-radius: 7%;
+    transition: 400ms;
 }
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media only screen and (min-width: 510px) and (max-width: 800px) {
+
+    #header{
+        display: block;
+        background-color: #0D5686;
+    }
+    .logo{
+        padding-top: 5px;
+        justify-content: center;
+    }
+    .logo img{
+        width: 70px;
+    }
+    .contenedor-nav {
+        justify-content: center;
+        margin-top: 13px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 510px) {
+    #header {
+
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .contenedor-nav {
+        flex-direction: column;
+        align-items: center;
+        max-width: max-content;
+    }
+    .contenedor-nav li {
+        margin-right: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .contenedor-nav li a {
+
+    }
+    .contenedor-nav li a:hover {
+
+    }
+}
+
