@@ -83,7 +83,8 @@
 
     .contenedor-nav {
         justify-content: center;
-        margin-top: 13px;
+        margin-top: 6px;
+        margin-right: 2%;
     }
     .contenedor-nav li a {
         padding: 6px;
@@ -92,10 +93,10 @@
 
 @media only screen and (min-width: 0px) and (max-width: 650px) {
     #header {
-        height: 260px;
+        height: auto;
         display: block;
         position: relative;
-        transition: all 400ms;
+        transition: all 200ms;
     }
 
     .logo {
@@ -117,6 +118,10 @@
         padding: 15px 500px;
     }
     .carrito{
-        margin-top: 10px;
+        padding: 10px 500px;
+        border-bottom: 1px solid black;
+    }
+    .carrito:hover{
+        background-color: azure;
     }
 }
