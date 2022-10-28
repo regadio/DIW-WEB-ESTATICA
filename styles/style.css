@@ -63,6 +63,12 @@
 .carrito img{
     width: 30px;
 }
+.imagen{
+    width: 100%;
+}
+.imagen img{
+width: 100%;
+}
 
 @media only screen and (min-width: 650px) and (max-width: 800px) {
 
