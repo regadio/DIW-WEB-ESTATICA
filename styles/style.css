@@ -95,7 +95,7 @@
         height: 260px;
         display: block;
         position: relative;
-        transition: all 200ms;
+        transition: all 400ms;
     }
 
     .logo {
