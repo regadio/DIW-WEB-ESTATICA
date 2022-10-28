@@ -7,6 +7,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: #CAD9FF;
+}
 
 #header {
     width: 100%;
@@ -63,8 +66,9 @@
 .carrito img{
     width: 30px;
 }
-.imagen{
+.cont-imagen{
     width: 100%;
+    margin-top: 60px;
 }
 .imagen img{
 width: 100%;
