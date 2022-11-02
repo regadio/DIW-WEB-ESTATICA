@@ -59,7 +59,7 @@ body{
     color: #000000;
     background-color: azure;
     border-radius: 7%;
-    transition: 400ms;
+    transition: 600ms;
 }
 .carrito{
     display: flex;
@@ -133,5 +133,6 @@ width: 100%;
     }
     .carrito:hover{
         background-color: azure;
+        transition: 600ms;
     }
 }
