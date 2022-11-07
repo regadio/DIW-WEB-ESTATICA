@@ -71,9 +71,9 @@ body{
 }
 .cont-imagen{
     width: 100%;
-    margin-top: 60px;
+    margin-top: 2%;
 }
-.imagen img{
+.cont-imagen img{
 width: 100%;
 }
 
