@@ -10,7 +10,7 @@
 .grid {
   display: grid;
   grid-template-areas: "a b c d"
-    "e f f d";
+    "e f f u";
 }
 
 .grid__item:nth-child(1) {
@@ -39,9 +39,16 @@
   grid-area: f;
   text-align: center;
 }
+.grid__item:nth-child(7) {
+  grid-area: u;
+  text-align: end;
+}
 
 .copy {
   margin-top: 28px
+}
+.mapa{
+  margin-right: 10px;
 }
 
 .contenedor-footer li:first-child {
@@ -55,10 +62,39 @@
 }
 
 .contenedor-footer a,
-.copy a,
+.copy a,.mapa a,
 .grid__item {
   color: azure;
   text-decoration: none;
 }
+
+@media only screen and (min-width: 400px) and (max-width: 630px) {
+  .grid__item{
+    font-size: 12px;
+  }  
+  .contenedor-footer li:first-child {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+  .grid__item{
+    font-size: 7px;
+  }  
+  .contenedor-footer li:first-child {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #footer {
+
+    height: 100px;
+
+  }
+}
+
+
 
 /* FIN FOOTER */

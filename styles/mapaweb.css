@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.lista {
+    padding: 55px;
+    border-radius: 3%;
+    border: 2px solid #418dff;
+    margin-left: 40%;
+    margin-top: 2%;
+    background-color: #BECDE3;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.lista a {
+    text-decoration: none;
+}
+
+.princi {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.secun {
+    margin-left: 35px;
+    font-weight: bold;
+}

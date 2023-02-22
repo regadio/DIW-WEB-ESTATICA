@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carrito-precio{
+    display: flex;
+    justify-content: center;
+}
+.carrito{
+    background-color: #BECDE3;
+    height: 700px;
+    padding: 2%;
+}
+.precio{
+
+}
+.producto{
+    background-color: white;
+    display: flex;
+    border: 1px solid red;
+    position: relative;
+    height: 20%;
+}
+.precio{
+    position: absolute;
+    top: 50%;
+}
+.eliminar{
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+.totalprecio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+}
+.boton-terminar{
+    color: aliceblue;
+    padding: 9px;
+    background-color: #0E80CB;
+}
+.boton-terminar:hover{
+    cursor: pointer;
+}
