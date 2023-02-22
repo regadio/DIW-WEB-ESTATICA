@@ -67,6 +67,7 @@
   color: azure;
   text-decoration: none;
 }
+/* INICIO DISEÑO RESPONSIVE */
 
 @media only screen and (min-width: 400px) and (max-width: 630px) {
   .grid__item{

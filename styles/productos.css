@@ -42,7 +42,9 @@ body {
 .precio {
     font-weight: 600;
     font-size: 23px;
+    text-align: end;
 }
+/* INICIO DISEÑO RESPONSIVE */
 
 @media only screen and (min-width: 920px) and (max-width: 1020px) {
     .text {

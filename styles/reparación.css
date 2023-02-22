@@ -82,6 +82,8 @@ form label{
     font-size: 18px;
     font-weight: 600;
 }
+/* INICIO DISEÑO RESPONSIVE */
+
 @media only screen and (min-width: 0px) and (max-width: 420px) {
     .explica-form{
         display: flex;

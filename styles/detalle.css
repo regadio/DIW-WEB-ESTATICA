@@ -16,6 +16,7 @@
     font-weight: bold;
     font-size: 22px;
 }
+
 .añadir-comprar{
     margin-top: 20px;
     display: flex;
@@ -51,6 +52,8 @@ h1{
     margin-bottom: 15px;
     text-align: center;
 }
+/* INICIO DISEÑO RESPONSIVE */
+
 @media only screen and (min-width: 0px) and (max-width: 500px) {
     .añadir-comprar{
         flex-direction: column;
