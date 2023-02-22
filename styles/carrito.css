@@ -1,48 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.carrito-precio{
+
+.carrito2-precio {
+    margin-top: 25px;
     display: flex;
     justify-content: center;
 }
-.carrito{
+
+.carrito2 {
+    margin-top: 25px;
+    border-radius: 10px;
     background-color: #BECDE3;
-    height: 700px;
     padding: 2%;
 }
-.precio{
 
+h2 {
+    margin-bottom: 20px;
 }
-.producto{
+
+.producto {
     background-color: white;
     display: flex;
-    border: 1px solid red;
     position: relative;
-    height: 20%;
+    height: 25%;
+    padding: 10px;
 }
-.precio{
+
+.precio {
     position: absolute;
-    top: 50%;
+    top: 60%;
 }
-.eliminar{
+
+.eliminar {
     background-color: red;
     position: absolute;
-    top: 50%;
-    left: 80%;
+    top: 60%;
+    left: 82%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
 }
-.totalprecio{
+
+.totalprecio {
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 10%;
 }
-.boton-terminar{
-    color: aliceblue;
+
+.precio2 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.boton-terminar {
+    color: rgb(240, 244, 255);
     padding: 9px;
     background-color: #0E80CB;
 }
-.boton-terminar:hover{
+
+.boton-terminar:hover {
     cursor: pointer;
 }

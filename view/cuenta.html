@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="/icons/LOGO8.png">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/atencion.css">
+    <link rel="stylesheet" href="../styles/cuenta.css">
 
     <title>Document</title>
 </head>
@@ -35,64 +35,51 @@
                 </ul>
             </li>
             <li><a href="./cuenta.html">cuenta</a></li>
-            <a href="./carrito.html" class="carrito"><img src="../icons/-shopping-cart_90604.svg" alt="Carrito de la compra"></a>
+            <a href="./carrito.html" class="carrito"><img src="../icons/-shopping-cart_90604.svg"
+                    alt="Carrito de la compra"></a>
         </ul>
     </header>
     <!-- FIN HEADER -->
-    <h1>centro de soporte</h1>
-    <div class="form-descrip">
-        <div class="form">
-            <h2>FORMULARIO PARA DUDAS</h2>
+    <!-- INICIO INICIAR SESION -->
+    <div class="iniciar-crear">
+        <div class="iniciar">
+            <h2>INICIAR SESIÓN</h2>
             <form>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre*" required>
-
-                <label for="apellidos">Apellidos</label>
-                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos*" required>
-
-                <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono" name="telefono" placeholder="Telefono*" required>
 
                 <label for="email">Correo electrónico</label>
                 <input type="email" id="email" name="email" placeholder="Email*" required>
+                
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Contraseña*" required>
 
-                <label for="descripcion">Descripción de la duda</label>
-                <textarea id="descripcion" name="descripcion" rows="5" cols="30" maxlength="500"></textarea>
-                <input type="submit" value="Enviar">
+                <input type="submit" value="ENTRAR">
             </form>
 
         </div>
-        <div class="descrip">
-            <h2>Dudas más frecuentes</h2>
-            <p><strong>¿Dónde puedo descargar mi factura?:</strong> En la sección "Mi Cuenta/Mis Pedidos" está
-                disponible la descarga de la factura.</p>
-            <p><strong>¿Cuáles son los estados por los que pasará mi pedido hasta ser enviado?:</strong>
-                <br>
-                <span class="margen">Realizado</span>
-                <br>
-                <span class="margen">En proceso</span>
-                <br>
-                <span class="margen">Pagado</span>
-                <br>
-                <span class="margen">Enviado</span>
-            </p>
-            <p><strong>Cambiar el procesador:</strong> Para que tu ordenador este actualizado y sea estable, puede ser
-                recomendable cambiar el procesador. Consulta con nuestros expertos cualquier problema que tengas con tu
-                PC de sobremesa, ellos te ayudarán y te solucionarán cualquier inconveniente.</p>
+        <!-- FIN INICIARSESION -->
 
-            <h2>Reparar portátiles</h2>
-            <p><strong>Reparamos pantallas de portátiles:</strong> Si la pantalla de tu portátil tiene píxeles muertos o
-                apagados, si hay algún punto que no se ve bien o crees que se podría calibrar mejor, en PcComponentes
-                podemos arreglar la pantalla del cualquier portátil, sea de la marca que sea.</p>
-            <p><strong>Cambiamos la batería del portátil:</strong> Con el tiempo, las baterías de los portátiles también
-                se resienten con los años. Los modelos más modernos ya no incluyen baterías extraíbles, por lo que
-                cambiarlas es complicado. Si tienes que cambiar la batería del portátil o repararla, nuestros expertos
-                lo harán por ti, rápido y muy sencillo. </p>
-            <p><strong>Reparamos teclados:</strong> En ocasiones, los teclados de los portátiles dan problemas con
-                algunas teclas. Si necesitas reparar una tecla de tu portátil o arreglar el teclado, en PcComponentes
-                podemos ayudarte con ello. Reparamos teclados de portátiles HP, Asus, Lenovo y cualquier marca.</p>
-
+        <!-- INICIO CREAR CUENTAFIN CREAR CUENTA -->
+        <div class="crear">
+            <h2>CREAR CUENTA</h2>
+            <form>
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Usuario*" required>
+            
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Email*" required>
+            
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Contraseña*" required>
+            
+                <label for="password-repeat">Repetir contraseña</label>
+                <input type="password" id="password-repeat" name="password-repeat" placeholder="Repetir contraseña*" required>
+            
+                <input type="submit" value="Enviar">
+            </form>
+            
         </div>
+        <!-- FIN CREAR CUENTAFIN CREAR CUENTA -->
+
     </div>
         <!-- INICIO FOOTER -->
         <footer id="footer">

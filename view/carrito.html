@@ -5,35 +5,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons/LOGO8.png">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+
     <link rel="stylesheet" href="../styles/carrito.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="carrito-precio">
-        <div class="carrito">
-            <h4>Total productos:</h4>
+    <!-- INICIO HEADER -->
+    <header id="header">
+        <a class="logo" href="../index.html"><img src="../icons/logoh4tt.png" alt="imagen-logo"></a>
+        <ul class="contenedor-nav">
+            <li><a href="../index.html">inicio</a></li>
+            <li class="desplegable1"><a href="">productos</a>
+                <ul class="desplegable">
+                    <li><a href="./sobremesa.html">sobremesa</a></li>
+                    <li><a href="./portatil.html">portátil</a></li>
+                    <li><a href="./telefono.html">teléfono</a></li>
+                </ul>
+            </li>
+
+            <li class="desplegable1"><a href="#">servicios</a>
+                <ul class="desplegable">
+                    <li><a href="./reparación.html">reparación</a></li>
+                    <li><a href="./atencion.html">atención al cliente</a></li>
+                    <li><a href="./somos.html">quienes somos</a></li>
+                </ul>
+            </li>
+            <li><a href="./cuenta.html">cuenta</a></li>
+            <a href="./carrito.html" class="carrito"><img src="../icons/-shopping-cart_90604.svg"
+                    alt="Carrito de la compra"></a>
+        </ul>
+    </header>
+    <!-- FIN HEADER -->
+    <div class="carrito2-precio">
+        <div class="carrito2">
+            <h2>Total productos:</h2>
             <div class="producto">
                 <img src="../icons/ejemplo1.png" alt="">
                 <div class="descripcion">
                     <p>Ryzen 5 5600X/16GB/1TB+500GB SSD RTX3060 + Windows 11 Pro</p>
-                    <p class="precio">1999€</p>
+                    <p class="precio"><strong>Precio:</strong> 1999€</p>
                     <div class="eliminar">
-                        eliminar
+                        Eliminar
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="totalprecio">
-            <div>
-                Total:1999€
+            <div class="totalprecio">
+                <div class="precio2">
+                    Total: 1999€
+                </div>
+                <div class="boton-terminar">
+                    TRAMITAR PEDIDO
+                </div>
             </div>
-            <div class="boton-terminar">
-                TRAMITAR PEDIDO
-            </div>
-            
         </div>
     </div>
+    <!-- INICIO FOOTER -->
+    <footer id="footer">
+        <div class="grid">
+            <div class="grid__item">
+                <ul class="contenedor-footer">
+                    <li>Productos</li>
+                    <li><a href="../view/sobremesa.html">Sobremesa</a></li>
+                    <li><a href="../view/portatil.html">Portátil</a></li>
+                    <li><a href="../view/telefono.html">Teléfono</a></li>
+                </ul>
+            </div>
+            <div class="grid__item">
+                <ul class="contenedor-footer">
+                    <li>Servicios</li>
+                    <li><a href="../view/reparación.html">Reparacion</a></li>
+                    <li><a href="../view/atencion.html">Atención al Cliente</a></li>
+                    <li><a href="../view/somos.html">Quienes Somos</a></li>
+                </ul>
+
+            </div>
+            <div class="grid__item">
+                Siguenos en:
+                <a href=""><img src="./icons/github.png" alt="" width="24px"></a>
+                <a href=""><img src="./icons/gorjeo.png" alt="" width="24px"></a>
+                <a href=""><img src="./icons/instagram.png" alt="" width="24px"></a>
+
+            </div>
+            <div class="grid__item">
+                <a class="logo" href=""><img src="../icons/logoh4tt.png" alt="imagen-logo"></a>
+            </div>
+            <div class="grid__item">
+                <ul class="contenedor-footer">
+                    <li>Contacto</li>
+                    <li>Teléfono:999999999</li>
+                    <li>Email:a@example.com</li>
+                </ul>
+
+            </div>
+            <div class="grid__item">
+                <div class="copy">
+                    <a href="#">&#169Copyright</a>
+                </div>
+            </div>
+            <div class="grid__item">
+                <div class="mapa">
+                    <a href="../view/mapaweb.html">Mapa web</a>
+                </div>
+            </div>
+    </footer>
+    <!-- FIN FOOTER -->
 </body>
 
 </html>

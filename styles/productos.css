@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DADADA;
+}
+
+.total-tarjeta {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.total-tarjeta a {
+    width: 18%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 6%;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.precio {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1020px) {
+    .text {
+        font-size: 14px;
+
+    }
+
+    .precio {
+       
+        font-size: 20px;
+    }
+
+
+}
+@media only screen and (min-width: 860px) and (max-width: 920px) {
+    .total-tarjeta a {
+        width: 28%;
+    }
+    .text {
+        
+        font-size: 16px;
+
+    }
+    .precio {
+        
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width: 715px) and (max-width: 860px) {
+    .total-tarjeta a {
+        width: 28%;
+    }
+    .text {
+        
+        font-size: 16px;
+
+    }
+    .precio {
+        
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 715px) {
+    .total-tarjeta a {
+        width: 28%;
+    }
+    .text {
+        
+        font-size: 16px;
+
+    }
+    .precio {
+        
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 450px) {
+    .total-tarjeta a {
+        width: 38%;
+    }
+    .text {
+        
+        font-size: 14px;
+
+    }
+    .precio {
+        
+        font-size: 17px;
+    }
+}

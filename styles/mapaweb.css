@@ -7,29 +7,77 @@ h1{
     text-align: center;
     margin-top: 3%;
 }
+.lista1{
+    display: flex;
+    justify-content: center;
+}
 
 .lista {
-    padding: 55px;
-    border-radius: 3%;
-    border: 2px solid #418dff;
-    margin-left: 40%;
-    margin-top: 2%;
-    background-color: #BECDE3;
     display: flex;
     flex-direction: column;
-    width: 20%;
+    border-radius: 3%;
+    border: 2px solid #418dff;
+    margin-top: 2%;
+    background-color: #BECDE3;
+    width: 28%;
+    padding-left: 8%;
 }
 
 .lista a {
     text-decoration: none;
 }
+.lista a:hover {
+    color: rgb(2, 126, 163);
+}
 
 .princi {
     font-size: 20px;
     font-weight: 800;
+    color: white;
 }
 
 .secun {
-    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
     font-weight: bold;
+    color: white;
+}
+.secun a{
+    color: white;
+}
+@media only screen and (min-width: 780px) and (max-width: 1350px) {
+    .lista {
+        padding-left: 5%;
+    }
+    
+}
+@media only screen and (min-width: 690px) and (max-width: 780px) {
+    .princi {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .secun {
+        margin-left: 25px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .lista {
+        padding-left: 5%;
+    }
+    
+}
+@media only screen and (min-width: 0px) and (max-width: 690px) {
+    .princi {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .secun {
+        margin-left: 25px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
 }
